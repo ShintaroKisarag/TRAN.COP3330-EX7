@@ -16,10 +16,10 @@ public class ex7 {
         System.out.println("You entered dimension of "+length+ " by "+width+ " feet ");
 
         double area = length * width;   //formula of area
-        final double conversionFactor=area*0.09290304;
+        double conversion=area*0.09290304;    //conversion formula
 
         System.out.println("The area is ");
         System.out.println(area+" square feet");
-        System.out.println(conversionFactor+ " square meters");
+        System.out.println(conversion+ " square meters");
     }
 }
